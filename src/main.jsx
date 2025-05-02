@@ -8,12 +8,27 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Banner from './Banner.jsx';
+import About from './About.jsx';
+import Contact from './Contact.jsx';
+import Footer from './Footer.jsx';
 
 
 const router = createBrowserRouter([
   {
-    path: "",
+    path: "/",
     element:<App></App> ,
+  }, {
+    path: "about",
+    element:<About></About> ,
+  }, {
+    path: "",
+    element:< ></> ,
+  }, {
+    path: "/contact",
+    element:<Contact></Contact> ,
+  }, {
+    path: "footer",
+    element:<Footer></Footer> ,
   },
 ]);
 

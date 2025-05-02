@@ -2,17 +2,19 @@ import { useState } from 'react'
 import './App.css'
 import Banner from './Banner'
 import About from './About'
-import Contacr from './Contacr'
+import Contact from './Contact'
+import Footer from './Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-    <Banner></Banner>
-    <About></About>
-
-    <Contacr></Contacr>
+      <Banner></Banner>
+      <About></About>
+      <Contact></Contact>
+      <Footer></Footer>
+      
     </>
   )
 }
