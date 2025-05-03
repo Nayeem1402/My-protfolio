@@ -4,7 +4,7 @@ const Banner = () => {
     return (
         <div>
             <div className=' Banner-main animate__animated animate__fadeInLeft  capitalize text-5xl text-wrap leading-tight  text-[#272341] font-bold  flex items-center justi fy-center h-screen flex-wrap ml-8  lg:justify-start lg:te xt-7xl lg:pl-36'>
-                <h1 className=' '>Hi, i am  <span clas sName=' bg- gradient-to-r fro m-cyan-400 to-blue-500 bg-clip-text text-transparent'>MD.Nayeem </span><br />a  frontend developer <br />
+                <h1 className=' '>Hi, i am  <span className=' bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-600 '>MD.Nayeem </span><br />a  frontend developer <br />
 
 
 
