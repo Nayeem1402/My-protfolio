@@ -16,8 +16,11 @@ const About = () => {
                     </p>
 
                     
-                    <button  class="border mb-24  border-white px-6 py-2 rounded hover:bg-white hover:text-blue-600 transition">
-                        View Resume
+                    <button class="border mb-24 border-white px-6 py-2 rounded relative overflow-hidden group">
+                        <span class="absolute inset-0 bg-white transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-in-out"></span>
+                        <span class="relative text-white group-hover:text-blue-600 transition-colors duration-300 ease-in-out">
+                            View Resume
+                        </span>
                     </button>         
                 </div>
             </section>
