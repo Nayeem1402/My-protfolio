@@ -10,24 +10,24 @@ const Skills = () => (
 
         {/* skills container */}
     
-            <div className='flex flex-col gap-5  justify-center items-center mt-8 lg:flex-row'>
+            <div className='flex flex-col gap-5 animate__animated animate__fadeInUp justify-center items-center mt-8 lg:flex-row'>
                 <div className='w-1/4 '>
                     <img src={html} alt="HTML" className='w-24 h-24 mx-auto' />
                     <h3 className='text-center text-2xl font-semibold'>HTML</h3>
-                    <p className='text-center text-neutral-500 text-xl'>Expart </p>
-                    <p className='text-center text-neutral-500 text-xl'>98%</p>
+                    <p className='text-center text-neutral-500 text-xl animate__animated animate__fadeInUp animate__delay-1s'>Expart </p>
+                    <p className='text-center text-neutral-500 text-xl animate__animated animate__fadeInUp animate__delay-1s '>98%</p>
                 </div>
                 <div className='w-1/4 '>
                     <img src={css} alt="CSS" className='w-24 h-24 mx-auto' />
                     <h3 className='text-center text-2xl font-semibold'>CSS</h3>
-                    <p className='text-center text-neutral-500 text-xl'>Expart</p>
-                    <p className='text-center text-neutral-500 text-xl'>95%</p>
+                    <p className='text-center text-neutral-500 text-xl  animate__animated animate__fadeInUp animate__delay-1s'>Expart</p>
+                    <p className='text-center text-neutral-500 text-xl  animate__animated animate__fadeInUp animate__delay-1s'>95%</p>
                 </div>
                 <div className='w-1/4 '>
                     <img src={javascript} alt="JavaScript" className='w-24 h-24 mx-auto' />
                     <h3 className='text-center text-2xl font-semibold'>JavaScript</h3>
-                    <p className='text-center text-neutral-500 text-xl'>Intermadiet</p>
-                    <p className='text-center text-neutral-500 text-xl'>70%</p>
+                    <p className='text-center text-neutral-500 text-xl  animate__animated animate__fadeInUp animate__delay-1s'>Intermadiet</p>
+                    <p className='text-center text-neutral-500 text-xl  animate__animated animate__fadeInUp animate__delay-1s'>70%</p>
                 </div>
             </div>
        
