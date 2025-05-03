@@ -7,9 +7,12 @@ const Contact = () => {
                 clipPath: 'polygon(0 40%, 100% 0, 100% 100%, 0 100%)',
             }}>
 
-            <h2 className="text-3xl font-bold mt-20 mb-4">CONTACT</h2>
-            <p className="text-lg mb-6">
-                If you want to talk projects, internship, or have questions just click below
+            <h2 className="text-4xl font-bold mt-20 mb-12">CONTACT</h2>
+           
+            <div className='animate__animated animate__fadeInUp   animate__slow animate__duration-[1s]'>
+
+            <p className="text-2xl capitalize mb-6">
+                If you want to talk projects, internship, job or have questions just click below
             </p>
             <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrfTDqXJsZMZfBwTtnqZkDnnGtCzxKkVRwxnzKwNDvNdWBTDhqVKxdBKFqNdpXQLmfrSQB" target='blank'
                 className="inline-block border-2 border-white px-6 py-2 font-semibold relative overflow-hidden group"
@@ -19,6 +22,9 @@ const Contact = () => {
                     Click to email me
                 </span>
             </a>
+
+            </div>
+
         </div>
     )
 }
