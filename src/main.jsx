@@ -11,6 +11,7 @@ import Banner from './Banner.jsx';
 import About from './About.jsx';
 import Contact from './Contact.jsx';
 import Footer from './Footer.jsx';
+import skills from './Skills.jsx';
 
 
 const router = createBrowserRouter([
@@ -21,10 +22,10 @@ const router = createBrowserRouter([
     path: "about",
     element:<About></About> ,
   }, {
-    path: "",
-    element:< ></> ,
+    path: "skills",
+    element:<skills></skills> ,
   }, {
-    path: "/contact",
+    path: "contact",
     element:<Contact></Contact> ,
   }, {
     path: "footer",

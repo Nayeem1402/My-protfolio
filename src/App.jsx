@@ -4,6 +4,8 @@ import Banner from './Banner'
 import About from './About'
 import Contact from './Contact'
 import Footer from './Footer'
+import Skills from './Skills'
+ 
 
 function App() {
 
@@ -12,6 +14,7 @@ function App() {
     <>
       <Banner></Banner>
       <About></About>
+      <Skills></Skills>
       <Contact></Contact>
       <Footer></Footer>
       
