@@ -15,7 +15,7 @@ const About = () => {
 
 
             <section className='flex justify-start'>
-                <div class="relative max-w-4xl mx-auto text-center z-10  animate__animated animate__fadeInLeft animate__delay-1s animate__duration-1s  ">
+                <div class="relative max-w-4xl mx-auto text-center z-10  animate__animated animate__fadeInRight animate__delay-1s animate__duration-1s  ">
 
 
 

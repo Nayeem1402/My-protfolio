@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import Banner from './Banner'
 import About from './About'
@@ -7,7 +6,6 @@ import Footer from './Footer'
 import Skills from './Skills'
 import Projects from './Projects'
  
-
 function App() {
 
 
