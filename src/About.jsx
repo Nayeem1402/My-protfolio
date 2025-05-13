@@ -1,5 +1,4 @@
-import React from 'react'
- import profile from './../public/img/profile.jpg';
+import Pimg from './../public/img/profile.jpg';
 
 const About = () => {
 
@@ -11,7 +10,7 @@ const About = () => {
             {/* abour container  */}
            <section className='grid  gap-10 lg:grid-cols-2 lg:px-[10%] '>
            
-            <div className='place-items-center animate__animated animate__fadeInUp  animate__delay-[800ms]'> <img className='max-w-[400px]  justify-end ' src={profile} alt="" /></div>
+            <div className='place-items-center animate__animated animate__fadeInUp  animate__delay-[800ms]'> <img className='max-w-[300px] max-h-[300px] rounded-2xl justify-end ' src={Pimg} alt="" /></div>
 
 
             <section className='flex justify-start'>
@@ -29,9 +28,7 @@ const About = () => {
                     
                     <button class="border mb-24 border-white px-6 py-2 rounded relative overflow-hidden group">
                         <span class="absolute inset-0 bg-white transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-in-out"></span>
-                        <span class="relative text-white group-hover:text-blue-600 transition-colors duration-300 ease-in-out">
-                            View Resume
-                        </span>
+                         <a  class="relative text-white group-hover:text-blue-600 transition-colors duration-300 ease-in-out" href="https://docs.google.com/document/d/1SUqVBL5fQ4BusWuFMrcJPz3vlj11Vbng/edit?usp=sharing&ouid=107805970476868535798&rtpof=true&sd=true" target='blank'>Vew resume </a>
                     </button>         
                 </div>
             </section>
